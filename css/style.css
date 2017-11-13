@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 0 0 0;
+    font-family: ProximaNovaRegular;
+}
+
+header .first_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+    header a{
+        text-decoration: none;
+    }
+
+    .first_row .contacts a{
+        font-size: 14px;
+        font-family: ProximaNovaBold;
+        color: #1e1e1e;
+    }
+
+    .first_row .contacts span{
+        font-size: 12px;
+        font-family: ProximaNovaBold;
+        color: #ababab;
+        margin-left: 10px;
+    }
+
+    .head_menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .head_menu li {
+        display: inline-block;
+        margin: 0px 10px;
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    .head_menu a {
+        color: #9c9c9c;
+        font-size: 12px;
+    }
+
+    .head_menu a:hover {
+        text-decoration: underline;
+    }
+
+    .first_row .login_block {
+        display: flex;
+        align-items: center;
+    }
+
+    .first_row .login_block a{
+        margin-right: 10px;
+        color: #9c9c9c;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .first_row .login_block span{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .second_row {
+        text-align: center;
+        padding: 50px 0 30px 0;
+    }
+
+    .main_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #f2f2f2;
+        padding: 25px 0 25px 0;
+    }
+
+    .main_menu li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .main_menu a {
+        font-size: 13px;
+        font-family: ProximaNovaBold;
+        color: #1f1f1f;
+        text-transform: uppercase;
+    }
+
+    .main_menu a:hover {
+        text-decoration: underline;
+    }
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: ProximaNovaRegular;
+}
+
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide {
+        position: relative;
+    }
+
+    .slider_button_next {
+        position: absolute;
+        top: 206px;
+        right: 50px;
+        z-index: 1;
+    }
+
+    .slider_button_prev {
+        position: absolute;
+        top: 206px;
+        left: 50px;
+        z-index: 1;
+    }
+
+    .slide span{
+        position: absolute;
+        font-family: ProximaNovaRegular;
+        text-transform: uppercase;
+        font-size: 72px;
+        color: #1e1e1e;
+        top: 100px;
+        left: 120px;
+        }
+
+    .slide p{
+        position: absolute;
+        font-family: ProximaNovaBold;
+        font-size: 18px;
+        color: #1e1e1e;
+        line-height: 24px;
+        top: 240px;
+        left: 120px;
+    }
+
+    .slider_line {
+        position: absolute;
+        top: 200px;
+        left: 120px;
+    }
+
+    .slider-product {
+        position: absolute;
+        top: 280px;
+        left: 280px;
+        }
+
+    .slider_circle {
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        background: #ffffff;
+        -moz-border-radius: 54px;
+        -webkit-border-radius: 54px;
+        border-radius: 54px;
+        right: 28px;
+        bottom: 28px;
+    }
+
+    .slider_circle a{
+        position: absolute;
+        font-family: ProximaNovaBold;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+        color: #c59a77;
+        right: 17px;
+        bottom: 44px;
+    }
+
+    .service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service .tag{
+        position: relative;
+    }
+
+    .tag a{
+        position: absolute;
+        background: url("../img/button-baner.png");
+        height: 39px;
+        width: 39px;
+        top: 123px;
+        left: 32px;
+    }
+
+    .tag a:hover{
+        background: url("../img/button-baner-hower.png");
+    }
+    .service .tag span{
+        position: absolute;
+        font-family: ProximaNovaBold;
+        top: 31px;
+        left: 32px;
+        font-size: 18px;
+    }
+
+    .service :first-child {
+        color: #c59a77;
+    }
+
+    .service :last-child {
+        color: white;
+    }
+
+    .items {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-basis: calc(100%/3);
+        height: 300px;
+        border-right: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .item_last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-basis: calc(100%/3);
+        height: 300px;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .item:hover, .item_last:hover {
+        background-color: #f6f0eb;
+    }
+
+    .item_title {
+        position: absolute;
+        font-family: ProximaNovaBold;
+        font-size: 18px;
+        text-transform: uppercase;
+        top: 30px;
+        left: 40px;
+    }
+
+    .item_description {
+        position: absolute;
+        font-size: 12px;
+        color: #7f7f7f;
+        top: 95px;
+        left: 40px;
+    }
+
+    .item_price {
+        position: absolute;
+        font-family: ProximaNovaBold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #7f7f7f;
+        top: 255px;
+        left: 40px;
+    }
+
+    .item img, .item_last img{
+        padding-left: 100px;
+    }
+    
+    .item a, .item_last a{
+        position: absolute;
+        background: url("../img/buy-button.png");
+        height: 45px;
+        width: 45px;
+        top: 240px;
+        left: 350px;
+    }
+
+    .item a:hover, .item_last a:hover{
+        background: url("../img/buy-button-hower.png");
+    }
+
+    .shop_description {
+        position: relative;
+        flex-basis: calc(100%/3*2);
+        background: url("../img/shop-descrp-back.png");
+        height: 300px;
+    }
+
+    .shop_description h2 {
+        position: absolute;
+        font-family: ProximaNovaBold;
+        letter-spacing: 0.45px;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-size: 18px;
+        left: 35px;
+        top: 32px;
+    }
+
+    .shop_description p{
+        position: absolute;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 18px;
+        color: #535151;
+        left: 35px;
+        top: 100px;
+    }
+
+    .shop_description :last-child{
+        top: 170px;
+    }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    height: 250px;
+    padding-top: 30px;
+}
+
+    .copyright {
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+        color: #8e8e8e;
+        letter-spacing: 0.3px;
+        line-height: 16px;
+    }
+
+    .footer_menu h3, .partner h3, .social h3{
+        font-family: ProximaNovaBold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: 0.45px;
+        line-height: 24px;
+    }
+
+    .footer_menu a{
+        font-family: ProximaNovaRegular;
+        text-decoration: none;
+        font-size: 12px;
+        color: #8e8e8e;
+        letter-spacing: 0.3px;
+        line-height: 32px;
+    }
+
+    .footer_menu a:hover, .partner a:hover {
+        text-decoration: underline;
+    }
+
+    .partner li, .partner a{
+        font-family: ProximaNovaRegular;
+        text-decoration: none;
+        font-size: 12px;
+        color: #8e8e8e;
+        letter-spacing: 0.3px;
+        padding-top: 20px;
+    }
+
+    .social img{
+        padding-top: 20px;
+    }
