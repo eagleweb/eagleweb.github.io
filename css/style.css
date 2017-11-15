@@ -21,6 +21,10 @@
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: ProximaNovaRegular;
 }
 
 header {
@@ -28,7 +32,6 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     padding: 15px 0 0 0;
-    font-family: ProximaNovaRegular;
 }
 
 header .first_row {
@@ -63,7 +66,7 @@ header .first_row {
 
     .head_menu li {
         display: inline-block;
-        margin: 0px 10px;
+        margin: 0 10px;
         list-style: none;
         text-transform: uppercase;
     }
@@ -126,8 +129,10 @@ header .first_row {
 main {
     display: flex;
     flex-direction: column;
-    font-family: ProximaNovaRegular;
+    flex: 1;
 }
+
+    /*Slider*/
 
     .slider {
         display: flex;
@@ -143,18 +148,17 @@ main {
         position: absolute;
         top: 206px;
         right: 50px;
-        z-index: 1;
     }
 
     .slide span{
         position: absolute;
-        font-family: ProximaNovaRegular;
+        font-family: "Trajan Pro";
         text-transform: uppercase;
         font-size: 72px;
         color: #1e1e1e;
-        top: 100px;
-        left: 105px;
-        }
+        left: 97px;
+        top: 110px;
+    }
 
     .slide p{
         position: absolute;
@@ -162,22 +166,22 @@ main {
         font-size: 18px;
         color: #1e1e1e;
         line-height: 24px;
-        width: 150px;
-        top: 240px;
+        max-width: 230px;
         left: 105px;
+        top: 210px;
     }
 
     .slider_line {
         position: absolute;
-        top: 200px;
         left: 105px;
+        top: 190px;
     }
 
     .slider-product {
         position: absolute;
         top: 280px;
         left: 280px;
-        }
+    }
 
     .slider_circle {
         position: absolute;
@@ -201,6 +205,8 @@ main {
         right: 17px;
         bottom: 44px;
     }
+
+    /*Row with service*/
 
     .service {
         display: flex;
@@ -303,6 +309,7 @@ main {
 
     .item img, .item_last img{
         padding-left: 100px;
+        max-width: 100%;
     }
     
     .item a, .item_last a{
@@ -379,7 +386,6 @@ footer {
     }
 
     .footer_menu a{
-        font-family: ProximaNovaRegular;
         text-decoration: none;
         font-size: 12px;
         color: #8e8e8e;
@@ -391,12 +397,14 @@ footer {
         text-decoration: underline;
     }
 
-    .partner li, .partner a{
-        font-family: ProximaNovaRegular;
+    .partner a{
         text-decoration: none;
         font-size: 12px;
         color: #8e8e8e;
         letter-spacing: 0.3px;
+    }
+    .partner li{
+        max-width: 50px;
         padding-top: 20px;
     }
 
