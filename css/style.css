@@ -146,13 +146,6 @@ main {
         z-index: 1;
     }
 
-    .slider_button_prev {
-        position: absolute;
-        top: 206px;
-        left: 50px;
-        z-index: 1;
-    }
-
     .slide span{
         position: absolute;
         font-family: ProximaNovaRegular;
@@ -160,7 +153,7 @@ main {
         font-size: 72px;
         color: #1e1e1e;
         top: 100px;
-        left: 120px;
+        left: 105px;
         }
 
     .slide p{
@@ -171,13 +164,13 @@ main {
         line-height: 24px;
         width: 150px;
         top: 240px;
-        left: 120px;
+        left: 105px;
     }
 
     .slider_line {
         position: absolute;
         top: 200px;
-        left: 120px;
+        left: 105px;
     }
 
     .slider-product {
@@ -258,7 +251,7 @@ main {
         align-items: center;
         position: relative;
         flex-basis: calc(100%/3);
-        height: 300px;
+        min-height: 299px;
         border-right: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
     }
@@ -269,7 +262,7 @@ main {
         align-items: center;
         position: relative;
         flex-basis: calc(100%/3);
-        height: 300px;
+        height: 299px;
         border-bottom: 1px solid #f2f2f2;
     }
 
@@ -329,11 +322,12 @@ main {
         position: relative;
         flex-basis: calc(100%/3*2);
         background: url("../img/shop-descrp-back.png");
-        height: 300px;
+        min-height: 300px;
     }
 
     .shop_description h2 {
         position: absolute;
+        max-width: 340px;
         font-family: ProximaNovaBold;
         letter-spacing: 0.45px;
         line-height: 24px;
@@ -345,6 +339,7 @@ main {
 
     .shop_description p{
         position: absolute;
+        max-width: 315px;
         font-size: 14px;
         letter-spacing: 0.35px;
         line-height: 18px;
@@ -361,12 +356,13 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #1e1e1e;
-    height: 250px;
+    min-height: 250px;
     padding-top: 30px;
 }
 
     .copyright {
         font-family: ProximaNovaBold;
+        max-width: 130px;
         font-size: 12px;
         color: #8e8e8e;
         letter-spacing: 0.3px;
