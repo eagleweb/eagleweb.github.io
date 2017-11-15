@@ -97,10 +97,14 @@ header .first_row {
         margin-left: 10px;
     }
 
+    /*Logo*/
+
     .second_row {
         text-align: center;
         padding: 50px 0 30px 0;
     }
+
+    /*Main menu*/
 
     .main_menu {
         display: flex;
@@ -118,6 +122,7 @@ header .first_row {
     .main_menu a {
         font-size: 13px;
         font-family: ProximaNovaBold;
+        letter-spacing: 0.33px;
         color: #1f1f1f;
         text-transform: uppercase;
     }
@@ -245,6 +250,8 @@ main {
         color: white;
     }
 
+    /*Shop*/
+
     .items {
         display: flex;
         justify-content: center;
@@ -326,6 +333,8 @@ main {
     .item a:hover, .item_last a:hover{
         background: url("../img/buy-button-hower.png");
     }
+
+    /*Shop description*/
 
     .shop_description {
         position: relative;
