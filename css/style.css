@@ -165,6 +165,14 @@ main {
         top: 110px;
     }
 
+    .slide hr{
+        position: absolute;
+        left: 105px;
+        top: 190px;
+        width: 43px;
+        border: 1px solid #1e1e1e;
+    }
+
     .slide p{
         position: absolute;
         font-family: ProximaNovaBold;
@@ -173,13 +181,7 @@ main {
         line-height: 24px;
         max-width: 230px;
         left: 105px;
-        top: 210px;
-    }
-
-    .slider_line {
-        position: absolute;
-        left: 105px;
-        top: 190px;
+        top: 220px;
     }
 
     .slider-product {
@@ -231,9 +233,6 @@ main {
 
     .dots_slider li.slick-active button{
         background: url("../img/slider-dot-hover.png") no-repeat;
-        border: none;
-        text-indent: -9999px;
-        cursor: pointer;
     }
 
     /*Row with service*/
@@ -273,18 +272,18 @@ main {
 
     .tag_1 {
         background: url("../img/baner/baner-1.png");
-        flex-basis: calc(100%/3);
+        flex-basis: 33.333%;
         color: #c59a77;
     }
 
     .tag_2 {
         background: url("../img/baner/baner-2.png");
-        flex-basis: calc(100%/3);
+        flex-basis: 33.333%;
     }
 
     .tag_3 {
         background: url("../img/baner/baner-3.png");
-        flex-basis: calc(100%/3);
+        flex-basis: 33.333%;
         color: white;
     }
 
@@ -355,7 +354,7 @@ main {
     }
 
     .item img, .item_last img{
-        padding-left: 100px;
+        padding-left: 150px;
         max-width: 100%;
     }
     
@@ -365,7 +364,7 @@ main {
         height: 45px;
         width: 45px;
         top: 240px;
-        left: 350px;
+        right: 30px;
     }
 
     .item a:hover, .item_last a:hover{
