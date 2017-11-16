@@ -211,42 +211,80 @@ main {
         bottom: 44px;
     }
 
+    .slick-dotted.slick-slider{
+        margin-bottom: 0;
+    }
+
+
+    .dots_slider {
+        position: absolute;
+        top: 40px;
+        right: 80px;
+    }
+
+    .dots_slider li button{
+        background: url("../img/slider-dot.png") no-repeat;
+        border: none;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+
+    .dots_slider li.slick-active button{
+        background: url("../img/slider-dot-hover.png") no-repeat;
+        border: none;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+
     /*Row with service*/
 
     .service {
         display: flex;
         justify-content: center;
+        min-height: 194px;
     }
 
-    .service .tag{
-        position: relative;
-    }
-
-    .tag a{
-        position: absolute;
-        background: url("../img/button-baner.png");
-        height: 39px;
-        width: 39px;
-        top: 123px;
-        left: 32px;
-    }
-
-    .tag a:hover{
-        background: url("../img/button-baner-hower.png");
-    }
-    .service .tag span{
-        position: absolute;
+    .service p{
         font-family: ProximaNovaBold;
-        top: 31px;
-        left: 32px;
         font-size: 18px;
+        letter-spacing: 0.45px;
+        max-width: 110px;
+        padding: 30px 0 0 30px;
     }
 
-    .service :first-child {
+    .service_button_next {
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        margin: 60px 0 0 40px;
+    }
+
+    .icon-right-open{
+        text-align: center;
+        color: #bc977a;
+    }
+
+    .service_button_next:hover {
+        background: #000000;
+    }
+
+    .tag_1 {
+        background: url("../img/baner/baner-1.png");
+        flex-basis: calc(100%/3);
         color: #c59a77;
     }
 
-    .service :last-child {
+    .tag_2 {
+        background: url("../img/baner/baner-2.png");
+        flex-basis: calc(100%/3);
+    }
+
+    .tag_3 {
+        background: url("../img/baner/baner-3.png");
+        flex-basis: calc(100%/3);
         color: white;
     }
 
