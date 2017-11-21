@@ -302,9 +302,9 @@ main {
         position: relative;
         flex-basis: calc(100%/3);
         min-height: 300px;
-        box-sizing: border-box;
         border-right: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
+        box-sizing: border-box;
     }
 
     .item_last {
@@ -314,8 +314,8 @@ main {
         position: relative;
         flex-basis: calc(100%/3);
         min-height: 300px;
-        box-sizing: border-box;
         border-bottom: 1px solid #f2f2f2;
+        box-sizing: border-box;
     }
 
     .item:hover, .item_last:hover {
