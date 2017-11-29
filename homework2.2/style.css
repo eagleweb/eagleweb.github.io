@@ -38,6 +38,7 @@
     color: #5f9ea0;
     text-align: right;
     font-size: 20px;
+    outline: none;
 }
 
 .block {
@@ -49,56 +50,36 @@
     right: 10px;
 }
 
-.button7{
+.calcbutton{
     position: absolute;
-    border: 3px solid #5f9ea0;
+    height: 56px;
+    width: 56px;
+    background-color: white;
     border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
+    border: 3px solid #5f9ea0;
+    outline: none;
+    font-size: 25px;
+    color: #5f9ea0;
+}
+
+.button7{
     top: 145px;
     left: 13px;
 }
 
 .button8{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 145px;
     left: 73px;
 }
 
 .button9{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 145px;
     left: 133px;
 }
 
 .button_plus{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 145px;
     left: 193px;
-}
-
-.button7 p, .button8 p, .button9 p, .button_plus p{
-    position: relative;
-    text-align: center;
-    font-size: 25px;
-    color: #5f9ea0;
-    top: 15px;
 }
 
 .button7:hover, .button8:hover, .button9:hover, .button_plus:hover{
@@ -106,113 +87,57 @@
     cursor: pointer;
 }
 
+.button7:active, .button8:active, .button9:active, .button_plus:active{
+    background-color: gray;
+}
+
 .button4{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 205px;
     left: 13px;
 }
 
 .button5{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 205px;
     left: 73px;
 }
 
 .button6{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 205px;
     left: 133px;
 }
 
 .button_minus{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 205px;
     left: 193px;
 }
 
-.button4 p, .button5 p, .button6 p, .button_minus p{
-    position: relative;
-    text-align: center;
-    font-size: 25px;
-    color: #5f9ea0;
-    top: 15px;
-}
-
 .button4:hover, .button5:hover, .button6:hover, .button_minus:hover{
-    background-color: honeydew;
-    cursor: pointer;
+     background-color: honeydew;
+     cursor: pointer;
+ }
+
+.button4:active, .button5:active, .button6:active, .button_minus:active{
+    background-color: gray;
 }
 
 .button1{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 265px;
     left: 13px;
 }
 
 .button2{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 265px;
     left: 73px;
 }
 
 .button3{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 265px;
     left: 133px;
 }
 
 .button_division{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 265px;
     left: 193px;
-}
-
-.button1 p, .button2 p, .button3 p, .button_division p{
-    position: relative;
-    text-align: center;
-    font-size: 25px;
-    color: #5f9ea0;
-    top: 15px;
 }
 
 .button1:hover, .button2:hover, .button3:hover, .button_division:hover{
@@ -220,56 +145,28 @@
     cursor: pointer;
 }
 
+.button1:active, .button2:active, .button3:active, .button_division:active{
+    background-color: gray;
+}
+
 .button_coma{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 325px;
     left: 13px;
 }
 
 .button0{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 325px;
     left: 73px;
 }
 
 .button_equal{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 325px;
     left: 133px;
 }
 
 .button_multi{
-    position: absolute;
-    border: 3px solid #5f9ea0;
-    border-radius: 8px;
-    box-sizing: content-box;
-    height: 50px;
-    width: 50px;
     top: 325px;
     left: 193px;
-}
-
-.button_coma p, .button0 p, .button_equal p, .button_multi p{
-    position: relative;
-    text-align: center;
-    font-size: 25px;
-    color: #5f9ea0;
-    top: 15px;
 }
 
 .button_coma:hover, .button0:hover, .button_equal:hover, .button_multi:hover{
@@ -277,22 +174,6 @@
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button_coma:active, .button0:active, .button_equal:active, .button_multi:active{
+    background-color: gray;
+}
