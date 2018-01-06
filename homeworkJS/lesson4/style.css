@@ -1,0 +1,43 @@
+#timer {
+    padding: 20px;
+}
+
+.stopwatch-container{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px 0 5px 0;
+    width: 165px;
+    border: 1px solid black;
+}
+.stopwatch-time{
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.stopwatch-remove{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    color: #666;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+}
+.stopwatch-remove:hover{
+    color: #d00;
+    cursor: pointer;
+}
+.stopwatch-control{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
